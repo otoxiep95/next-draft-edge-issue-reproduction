@@ -1,5 +1,15 @@
 This is a [Next.js](https://nextjs.org/) template to use when reporting a [bug in the Next.js repository](https://github.com/vercel/next.js/issues) with the `app/` directory.
 
+
+## Reproduction
+
+1. Clone the repo
+2. Run `npm install`
+3. Run `npm run dev`
+4. Open the browser at `http://localhost:3000/api`
+5. Open and edit `app/api/route.ts` and remove `export const runtime = "edge";` 
+6. Retest the issue
+
 ## Getting Started
 
 These are the steps you should follow when creating a bug report:
